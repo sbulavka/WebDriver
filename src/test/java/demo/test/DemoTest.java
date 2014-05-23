@@ -13,26 +13,26 @@ public class DemoTest extends BaseTest {
 
 
     //data used to fill the fields when registering a new medical center:
-    public String MedCenterName = "CenName3";
-    public String OfficeAccount = "OfAc3";
-    public String MedCenterEmail = "centeremail3@gamil.com";
-    public String PhoneNumber = "1234567893";
-    public String Fax = "1234567893";
-    public String Street = "Street3";
-    public String City = "City3";
-    public String State = "State3";
-    public String ZipCode = "12343";
-    public String FirstName = "FirstName3";
-    public String LastName = "LastName3";
-    public String DefAdminEmail = "fdgfdfgd3@sdfg.tu";
-    public String DefAdminUserName = "UserName3";
-    public String DefAdminPassword = "Password3";
+    public String MedCenterName = "BulavkaCen";
+    public String OfficeAccount = "Bulavka";
+    public String MedCenterEmail = "bulavkasa@gamil.com";
+    public String PhoneNumber = "3546576541";
+    public String Fax = "3546570541";
+    public String Street = "Street";
+    public String City = "City";
+    public String State = "State";
+    public String ZipCode = "44444";
+    public String FirstName = "FirstName";
+    public String LastName = "LastName";
+    public String DefAdminEmail = "fdgf456@sdfg.tu";
+    public String DefAdminUserName = "UserBulavka";
+    public String DefAdminPassword = "Passwor22";
 
     //data used to fill the field when editing the medical center:
-    public String NewMedCenterEmail = "centeremail4@gmail.com";
+    public String NewMedCenterEmail = "bulavkasa@gmail.com";
 
     //added answer template
-    public String AnsTemplate = "Yyy";
+    public String AnsTemplate = "Yeas";
 
     /**
      * Run all test
