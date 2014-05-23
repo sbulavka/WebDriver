@@ -13,26 +13,26 @@ public class DemoTest extends BaseTest {
 
 
     //data used to fill the fields when registering a new medical center:
-	public String MedCenterName = "CenName3";
-    public String OfficeAccount = "OfAc3";
-    public String MedCenterEmail = "centeremail3@gamil.com";
-    public String PhoneNumber = "1234567893";
-    public String Fax = "1234567893";
-    public String Street = "Street3";
-    public String City = "City3";
-    public String State = "State3";
-    public String ZipCode = "12343";
-    public String FirstName = "FirstName3";
-    public String LastName = "LastName3";
-    public String DefAdminEmail = "fdgfdfgd3@sdfg.tu";
-    public String DefAdminUserName = "UserName3";
-    public String DefAdminPassword = "Password3";
+	public String MedCenterName = "CenName2";
+    public String OfficeAccount = "OfAc2";
+    public String MedCenterEmail = "centeremail@gamil.com";
+    public String PhoneNumber = "1234567897";
+    public String Fax = "1234567897";
+    public String Street = "Street2";
+    public String City = "City2";
+    public String State = "State2";
+    public String ZipCode = "12345";
+    public String FirstName = "FirstName2";
+    public String LastName = "LastName2";
+    public String DefAdminEmail = "fdgfdfgd2@sdfg.tu";
+    public String DefAdminUserName = "UserName2";
+    public String DefAdminPassword = "Password2";
 
     //data used to fill the field when editing the medical center:
-    public String NewMedCenterEmail = "centeremail4@gmail.com";
+    public String NewMedCenterEmail = "centeremail@gmail.com";
 
     //added answer template
-    public String AnsTemplate = "Yyy";
+    public String AnsTemplate = "Yeap";
 
     /**
      * Run all test
@@ -42,10 +42,10 @@ public class DemoTest extends BaseTest {
       d.runTestLogInLogOut();
       d.runTestClickingAllTab();
       d.runTestOpenFormRegNewNMedicalCenter();
-      d.runTestRegistrationNewNMedicalCenter(MedCenterName, OfficeAccount, MedCenterEmail, PhoneNumber, Fax, Street, City, State, ZipCode, FirstName, LastName,
-                    DefAdminEmail, DefAdminUserName, DefAdminPassword, DefAdminPassword);
-      d.runTestOpenEditMedicalCenter(MedCenterEmail);
-      d.runTestEditMedicalCenter(MedCenterEmail, NewMedCenterEmail);
+     // d.runTestRegistrationNewNMedicalCenter(MedCenterName, OfficeAccount, MedCenterEmail, PhoneNumber, Fax, Street, City, State, ZipCode, FirstName, LastName,
+   //                 DefAdminEmail, DefAdminUserName, DefAdminPassword, DefAdminPassword);
+    //  d.runTestOpenEditMedicalCenter(MedCenterEmail);
+   //   d.runTestEditMedicalCenter(MedCenterEmail, NewMedCenterEmail);
       d.runTestDisableCenter(NewMedCenterEmail);
       d.runTestEnableCenter(NewMedCenterEmail);
       d.runTestGoToPractLogin();
